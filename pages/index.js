@@ -4,7 +4,7 @@ import Hero from '../components/hero';
 import SectionTitle from '../components/sectionTitle';
 import About from '../components/about';
 import { benefitOne, benefitTwo } from '../components/data';
-import Video from '../components/video';
+
 import Benefits from '../components/benefits';
 
 import Faq from '../components/faq';
@@ -32,7 +32,7 @@ export default function Home() {
         pretitle="Incentives"
         title="Learn how to fullfil your needs"
       ></SectionTitle>
-      <Video />
+
       <Note />
       <SectionTitle pretitle="FAQ" title="Frequently Asked Questions">
         Answer your customers possible questions here, it will increase the
