@@ -36,6 +36,7 @@
 
 .note-amb {
   width: 50%;
+  padding-right: 2rem;
 }
 .note-heading {
   color: #a22c18;
@@ -46,4 +47,10 @@
 .amb-note-main-container {
   width: 80%;
   margin: 0 auto;
+}
+.note-para-refferels {
+  font-weight: 700;
+}
+.note-para-refferels-span {
+  font-weight: 300;
 }

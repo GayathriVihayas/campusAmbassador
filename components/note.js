@@ -5,13 +5,20 @@ export default function note() {
     <container className="flex flex-wrap amb-note-main-container">
       <div className="note-amb">
         <h6 className="note-heading">Note</h6>
-        <p>
-          Referrals above 50 will be :Added in a leaderboard and Cash prizes of
-          5K, 3K and 2K rupees respectively will be awarded to the top three
-          ambassadors based on the number of referrals,Free access to 1 online
-          course
+        <p className="note-para-refferels">
+          Referrals above 50 will be :
+          <span className="note-para-refferels-span">
+            Added in a leaderboard and Cash prizes of 5K, 3K and 2K rupees
+            respectively will be awarded to the top three ambassadors based on
+            the number of referrals,Free access to 1 online course
+          </span>
         </p>
-        <p>Vouchers and goodies will be awarded based on marketing deals</p>
+        <p>
+          {' '}
+          <span className="note-para-refferels-span">
+            Vouchers and goodies will be awarded based on marketing deals{' '}
+          </span>
+        </p>
       </div>
       <div className="amb-refferel-point">
         <h3 className="note-heading"> How to earn referral points</h3>

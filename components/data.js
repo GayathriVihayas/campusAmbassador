@@ -50,7 +50,7 @@ const benefitTwo = {
   image: benefitTwoImg,
   bullets: [
     {
-      title: 'dentifying potential participants for InCTF on your campus.',
+      title: 'Identifying potential participants for InCTF on your campus. ',
 
       icon: <DeviceMobileIcon />,
     },
@@ -61,17 +61,18 @@ const benefitTwo = {
       icon: <AdjustmentsIcon />,
     },
     {
-      title: 'Displaying posters sent by InCTF on your college noticeboard.',
+      title:
+        'Acting as our in-house representative for the outreach events conducted by InCTF',
 
       icon: <SunIcon />,
     },
     {
-      title: 'Displaying posters sent by InCTF on your college noticeboard.',
+      title: 'Displaying posters sent by InCTF on your college noticeboard. ',
 
       icon: <SunIcon />,
     },
     {
-      title: 'Displaying posters sent by InCTF on your college noticeboard.',
+      title: 'Coordinating with InCTF organizers.',
 
       icon: <SunIcon />,
     },
