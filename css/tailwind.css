@@ -1,0 +1,49 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;500;600;700;900&family=Lexend:wght@500;600;700;800;900&display=swap');
+@layer base {
+  html,
+  body {
+    font-family: 'Inter', sans-serif;
+  }
+}
+.amb-hero-main-container {
+  width: 90%;
+}
+.bg-orange-700 {
+  background-color: #cf2a10;
+}
+.main-amb-heading {
+  color: #a22c18;
+}
+.main-amb-para {
+  color: #f96201;
+}
+.about-amb-content {
+  background-color: #cf2a10;
+  color: white;
+  border-radius: 53px;
+  padding: 1.5rem;
+}
+.amb-rep-adv-cont {
+  width: 95%;
+}
+.table-amb-container {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.note-amb {
+  width: 50%;
+}
+.note-heading {
+  color: #a22c18;
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 1rem;
+}
+.amb-note-main-container {
+  width: 80%;
+  margin: 0 auto;
+}
