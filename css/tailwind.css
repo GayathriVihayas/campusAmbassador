@@ -8,7 +8,13 @@
     font-family: 'Inter', sans-serif;
   }
 }
+body {
+  font-family: 'Inter', sans-serif;
+}
 .amb-hero-main-container {
+  width: 90%;
+}
+.amb-abt-main-container {
   width: 90%;
 }
 .bg-orange-700 {
@@ -56,4 +62,10 @@
 }
 /* .abt-amb-img-div {
   border: 2px solid green;
+} */
+/* .hero-amb-content h1 {
+  font-size: calc(1.75rem + 1.25vw);
+}
+.hero-amb-content p {
+  font-size: calc(1.1rem + 0.2vw);
 } */
