@@ -5,9 +5,9 @@ import heroImg from '../public/img/about-img.png';
 export default function about() {
   return (
     <>
-      <Container className="flex flex-wrap amb-hero-main-container">
+      <Container className="flex flex-wrap amb-hero-main-container ">
         <div className="flex items-center justify-center w-full lg:w-1/2">
-          <div className="">
+          <div className="abt-amb-img-div">
             <Image
               src={heroImg}
               width="640"
@@ -19,8 +19,8 @@ export default function about() {
             />
           </div>
         </div>
-        <div className="flex items-center w-full lg:w-1/2 about-amb-content">
-          <div className="flex flex-col w-full mt-4">
+        <div className="flex items-center w-full lg:w-1/2 about-amb-content mx-auto my-5 md:mx-0 md:my-10 lg:mx-5 lg:my-15 xl:mx-10 xl:my-20">
+          <div className="flex flex-col w-full mt-4 ">
             <h3 className="max-w-2xl mt-3 text-3xl font-bold leading-snug tracking-tight text-white-800 lg:leading-tight lg:text-4xl dark:text-white">
               About inCTF Campus Ambassador
             </h3>
