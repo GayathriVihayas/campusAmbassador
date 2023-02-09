@@ -8,7 +8,7 @@ import Video from '../components/video';
 import Benefits from '../components/benefits';
 
 import Faq from '../components/faq';
-import PopupWidget from '../components/popupWidget';
+
 import Note from '../components/note';
 
 export default function Home() {
@@ -19,7 +19,6 @@ export default function Home() {
         <meta name="description" content="campus Ambassador" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-
       <Hero />
       <About />
       <SectionTitle
@@ -35,14 +34,11 @@ export default function Home() {
       ></SectionTitle>
       <Video />
       <Note />
-
       <SectionTitle pretitle="FAQ" title="Frequently Asked Questions">
         Answer your customers possible questions here, it will increase the
         conversion rate as well as support or chat requests.
       </SectionTitle>
       <Faq />
-
-      <PopupWidget />
     </>
   );
 }
