@@ -1,6 +1,6 @@
 import Image from 'next/image';
 import Container from './container';
-import heroImg from '../public/img/hero-girls.png';
+import heroImg from '../public/img/hero-girl.png';
 
 export default function Hero() {
   return (
@@ -30,12 +30,10 @@ export default function Hero() {
             </div>
           </div>
         </div>
-        <div className="flex items-center justify-center w-full lg:w-1/2">
+        <div className="flex items-center justify-center w-full lg:w-1/2 hero-amb-img-div">
           <div className="">
             <Image
               src={heroImg}
-              width="916"
-              height="769"
               alt="Hero Illustration"
               layout="intrinsic"
               loading="eager"

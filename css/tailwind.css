@@ -69,3 +69,7 @@ body {
 .hero-amb-content p {
   font-size: calc(1.1rem + 0.2vw);
 } */
+.amb-hero-main-container {
+  /* border: 2px solid black; */
+  padding-top: 0 !important;
+}

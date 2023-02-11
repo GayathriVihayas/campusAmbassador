@@ -1,16 +1,13 @@
 import Head from 'next/head';
 import Hero from '../components/hero';
-
 import SectionTitle from '../components/sectionTitle';
 import About from '../components/about';
 import { benefitOne, benefitTwo } from '../components/data';
 import Table from '../components/table';
 import Benefits from '../components/benefits';
-
 import Faq from '../components/faq';
-
 import Note from '../components/note';
-
+// import Accordion from '../components/accordion';
 export default function Home() {
   return (
     <>
