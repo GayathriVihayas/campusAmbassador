@@ -8,7 +8,10 @@ export default function Hero() {
       <Container className="flex flex-wrap amb-hero-main-container">
         <div className="flex items-center w-full lg:w-1/2 hero-amb-content">
           <div className="max-w-2xl mb-8">
-            <h1 className="text-3xl font-bold leading-tight tracking-tight  lg:text-4xl lg:leading-tight xl:text-6xl xl:leading-tight main-amb-heading dark:text-white light:text-dark">
+            <h1
+              className="text-3xl font-bold leading-tight tracking-tight  lg:text-4xl lg:leading-tight xl:text-6xl xl:leading-tight main-amb-heading dark:text-white "
+              style={{ color: 'orange' }}
+            >
               Campus Ambassador
             </h1>
             <p className="py-5 text-base leading-normal text-gray-500 lg:text-xl xl:text-2xl dark:text-gray-300  main-amb-para">
