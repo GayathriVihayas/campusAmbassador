@@ -10,11 +10,14 @@ export default function Hero() {
           <div className="max-w-2xl mb-8">
             <h1
               className="text-3xl font-bold leading-tight tracking-tight  lg:text-4xl lg:leading-tight xl:text-6xl xl:leading-tight main-amb-heading dark:text-white "
-              style={{ color: 'orange' }}
+              style={{ color: '#a22c18' }}
             >
               Campus Ambassador
             </h1>
-            <p className="py-5 text-base leading-normal text-gray-500 lg:text-xl xl:text-2xl dark:text-gray-300  main-amb-para">
+            <p
+              className="py-5 text-base leading-normal text-gray-500 lg:text-xl xl:text-2xl dark:text-gray-300  main-amb-para"
+              style={{ color: '#f96201' }}
+            >
               In addition to the challenges and rewards, the ICA program
               provides a chance for participants to i mprove their professional
               skills and stand out in their careers. Internship and Placement
