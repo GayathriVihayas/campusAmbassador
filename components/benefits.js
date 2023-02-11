@@ -67,12 +67,8 @@ function Benefit(props) {
           })}
         </div>
         <div>
-          <h4 className="text-xl font-medium text-gray-600 dark:text-gray-600">
-            {props.title}
-          </h4>
-          <p className="mt-1 text-gray-500 dark:text-gray-200">
-            {props.children}
-          </p>
+          <h4 className="text-xl font-medium text-gray-600 ">{props.title}</h4>
+          <p className="mt-1 text-gray-500 ">{props.children}</p>
         </div>
       </div>
     </>
