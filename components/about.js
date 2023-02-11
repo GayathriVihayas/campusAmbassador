@@ -7,7 +7,7 @@ export default function about() {
     <>
       <Container className="flex flex-wrap amb-abt-main-container ">
         <div className="flex items-center justify-center w-full lg:w-1/2">
-          <div className="abt-amb-img-div">
+          <div className="abt-amb-img-div sm:mb-2">
             <Image
               src={heroImg}
               width="640"
@@ -16,6 +16,7 @@ export default function about() {
               layout="intrinsic"
               loading="eager"
               placeholder="blur"
+              className="sm:mb-2 sm:pb-5"
             />
           </div>
         </div>
