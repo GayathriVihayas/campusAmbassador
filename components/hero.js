@@ -6,7 +6,7 @@ export default function Hero() {
   return (
     <>
       <Container className="flex flex-wrap amb-hero-main-container">
-        <div className="flex items-center w-full lg:w-1/2 hero-amb-content">
+        <div className="flex items-center w-full lg:w-1/2 hero-amb-content lg:align-middle">
           <div className="max-w-2xl mb-8">
             <h1
               className="text-3xl font-bold leading-tight tracking-tight  lg:text-4xl lg:leading-tight xl:text-6xl xl:leading-tight main-amb-heading dark:text-white "
@@ -40,6 +40,7 @@ export default function Hero() {
           <div className="">
             <Image
               src={heroImg}
+              width="555"
               alt="Hero Illustration"
               layout="intrinsic"
               loading="eager"

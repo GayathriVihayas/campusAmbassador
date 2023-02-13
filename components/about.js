@@ -10,8 +10,7 @@ export default function about() {
           <div className="abt-amb-img-div sm:mb-2">
             <Image
               src={heroImg}
-              width="640"
-              height="426"
+              width="555"
               alt="Hero Illustration"
               layout="intrinsic"
               loading="eager"
@@ -21,7 +20,7 @@ export default function about() {
           </div>
         </div>
         <div className="flex items-center w-full lg:w-1/2 about-amb-content">
-          <div className="flex flex-col w-full mt-4 ">
+          <div className="flex flex-col w-full  ">
             <h3 className="max-w-2xl mt-3 text-3xl font-bold leading-snug tracking-tight text-white-800 lg:leading-tight lg:text-4xl dark:text-white">
               About inCTF Campus Ambassador
             </h3>
