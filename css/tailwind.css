@@ -19,6 +19,17 @@ body {
 .amb-abt-main-container {
   width: 90%;
 }
+.main-amb-abt-main-container {
+  background-image: url('../public/img/about-bg.png');
+  position: center;
+  background-size: cover;
+}
+@media only screen and (max-width: 500px) {
+  .main-amb-abt-main-container {
+    background-image: none;
+  }
+}
+
 .bg-orange-700 {
   background-color: #cf2a10;
 }
