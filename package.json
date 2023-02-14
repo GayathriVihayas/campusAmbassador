@@ -8,8 +8,8 @@
   "dependencies": {
     "@headlessui/react": "^1.7.9",
     "@heroicons/react": "^1.0.6",
+    "framer-motion": "^9.0.2",
     "next": "latest",
-   
     "react": "18.2.0",
     "react-dom": "18.2.0",
     "react-hook-form": "^7.43.0",

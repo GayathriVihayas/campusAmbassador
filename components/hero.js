@@ -1,12 +1,18 @@
 import Image from 'next/image';
 import Container from './container';
+import { motion } from 'framer-motion';
 import heroImg from '../public/img/hero-girl.png';
 
 export default function Hero() {
   return (
     <>
       <Container className="flex flex-wrap amb-hero-main-container">
-        <div className="flex items-center w-full lg:w-1/2 hero-amb-content lg:align-middle">
+        <motion.div
+          initial={{ x: -100, opacity: 0 }}
+          animate={{ x: 0, opacity: 1 }}
+          transition={{ duration: 1 }}
+          className="flex items-center w-full lg:w-1/2 hero-amb-content lg:align-middle"
+        >
           <div className="max-w-2xl mb-8">
             <h1
               className="text-3xl font-bold leading-tight tracking-tight  lg:text-4xl lg:leading-tight xl:text-6xl xl:leading-tight main-amb-heading dark:text-white "
@@ -35,8 +41,13 @@ export default function Hero() {
               </a>
             </div>
           </div>
-        </div>
-        <div className="flex items-center justify-center w-full lg:w-1/2 hero-amb-img-div">
+        </motion.div>
+        <motion.div
+          initial={{ x: 100, opacity: 0 }}
+          animate={{ x: 0, opacity: 1 }}
+          transition={{ duration: 1 }}
+          className="flex items-center justify-center w-full lg:w-1/2 hero-amb-img-div"
+        >
           <div className="">
             <Image
               src={heroImg}
@@ -47,7 +58,7 @@ export default function Hero() {
               placeholder="blur"
             />
           </div>
-        </div>
+        </motion.div>
       </Container>
     </>
   );
